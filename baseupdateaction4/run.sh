@@ -2,6 +2,6 @@
 
 
 echo "start update 4"
-apt -y update
-apt -y upgrade
+DEBIAN_FRONTEND=noninteractive apt -y update
+DEBIAN_FRONTEND=noninteractive apt -y upgrade
 echo "end update 4"
