@@ -2,7 +2,7 @@
 
 
 echo "start install bash"
-apt  update
-apt install bash
+apt -y update
+apt -y install bash
 
 echo "end install bash"

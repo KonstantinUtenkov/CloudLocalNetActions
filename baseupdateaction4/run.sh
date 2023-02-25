@@ -2,6 +2,6 @@
 
 
 echo "start update 4"
-apt update
-apt upgrade
+apt -y update
+apt -y upgrade
 echo "end update 4"
