@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export DEBIAN_FRONTEND=noninteractive
+
 apt update
 apt -y install virtualbox
-apt -y install virtualbox—ext–pack 
+apt -yq install virtualbox-ext-pack
