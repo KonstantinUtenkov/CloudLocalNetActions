@@ -2,6 +2,13 @@
 
 export DEBIAN_FRONTEND=noninteractive
 
+mount /dev/cdrom /media
+
+cd /media
+
+yes | ./VBoxLinuxAdditions.run
+
+
 apt -y update
 #apt -y install virtualbox
 #echo virtualbox-ext-pack virtualbox-ext-pack/license select true | sudo debconf-set-selections
