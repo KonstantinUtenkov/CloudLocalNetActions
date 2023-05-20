@@ -2,8 +2,8 @@
 
 
 echo "start install nginx"
-apt -y update
-apt -y install bash nginx
+apt-get -y update
+apt-get  -y -f install bash nginx nginx-common
 #env
 
 echo "<html xmlns=\"http://www.w3.org/1999/xhtml\">
