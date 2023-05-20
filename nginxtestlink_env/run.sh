@@ -2,6 +2,7 @@
 
 
 echo "start install nginx"
+echo $PWD
 apt-get -y update
 apt-get  -y -f install bash nginx nginx-common
 #env
