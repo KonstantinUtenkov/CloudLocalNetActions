@@ -44,6 +44,6 @@ kill -9 $(pgrep -f nginx)
 
 sleep 5
 
-/usr/sbin/nginx -c /etc/nginx/nginx.conf
+/usr/sbin/nginx -c /etc/nginx/nginx.conf &
 
 echo "end install nginx"
