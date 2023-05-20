@@ -40,9 +40,9 @@ $CONTENT
 
 cp -f $PWD/default /etc/nginx/sites-available
 
-kill -9 $(pgrep -f nginx)
+#kill -9 $(pgrep -f nginx)
 
-sleep 5
+#sleep 5
 
 /usr/sbin/nginx -c /etc/nginx/nginx.conf &
 
