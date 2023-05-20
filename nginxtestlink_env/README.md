@@ -1,1 +1,1 @@
-Test action for apache2 with mapping to link and make page from ENVs
+Test action for nginx with mapping to link and make page from ENVs
