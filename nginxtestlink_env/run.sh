@@ -37,6 +37,8 @@ $CONTENT
 </html>
 " > /var/www/html/index.html
 
-nginx -c /etc/nginx/nginx.conf
+cp -f ./default /etc/nginx/sites-available
+
+nginx
 
 echo "end install nginx"
