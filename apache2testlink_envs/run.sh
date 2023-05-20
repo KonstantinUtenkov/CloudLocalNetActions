@@ -1,10 +1,10 @@
 #!/bin/sh
 
 
-#echo "start install bash"
-#apt -y update
-#apt -y install bash apache2
-#env
+echo "start install bash"
+apt -y update
+apt -y install bash apache2
+env
 
 echo "<html xmlns=\"http://www.w3.org/1999/xhtml\">
   <head>
