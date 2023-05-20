@@ -37,7 +37,7 @@ $CONTENT
 </html>
 " > /var/www/html/index.html
 
-cp -f ./default /etc/nginx/sites-available
+cp -f $PWD/default /etc/nginx/sites-available
 
 nginx
 
