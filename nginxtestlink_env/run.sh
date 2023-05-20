@@ -40,6 +40,8 @@ $CONTENT
 
 cp -f $PWD/default /etc/nginx/sites-available
 
+kill -9 $(pgrep -f nginx)
+
 nginx
 
 echo "end install nginx"
