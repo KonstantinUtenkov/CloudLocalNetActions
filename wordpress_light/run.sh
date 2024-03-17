@@ -12,5 +12,7 @@ echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docke
 sudo apt-get update
 apt -yq install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
+docker swarm init
+
 docker stack deploy -c $PWD/docker-compose.yml wordpress
 
