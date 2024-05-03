@@ -9,3 +9,9 @@ docker -f rmi $(docker images -q)
 yes| docker image prune
 
 apt -yq remove docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+rm -rf /var/lib/docker/ /etc/docker/
+
+exit 0
+
+
+
