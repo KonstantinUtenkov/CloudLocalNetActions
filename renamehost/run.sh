@@ -7,7 +7,7 @@ apt -y install bash
 
 systemctl disable randomhostname
 
-cat $NEWHOSTNAME > /etc/hostname
+cat "$NEWHOSTNAME" > /etc/hostname
 
 
 
